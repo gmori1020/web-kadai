@@ -1,0 +1,33 @@
+#title {
+    color: #00baff;
+    letter-spacing: 3px;
+    font: 56px/2 "Arial Helvetica サンセリフ体";
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    text-indent: 1px;
+}
+
+.sub-title {
+    color: #2bc;
+    font-size: 18px;
+}
+
+em {
+    color: #22f;
+    font-weight: bold;
+}
+
+.keyword {
+    color: #f2b;
+    font: 14px/2 "Times New Roman", "Times" , "セリフ体";
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#copyright {
+    font-size: 10px;
+    text-align: center;
+}

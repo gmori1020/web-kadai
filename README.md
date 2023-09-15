@@ -10,6 +10,22 @@ Webサイト制作
 + [課題4-2](kadai04-2.html)
 + [課題5-1](kadai05-1.html)
 + [課題5-2](kadai05-2.html)
++ [課題6](kadai06.html)
++ [課題7-1](kadai07_1.html)
++ [課題7-2](kadai07_2.html)
++ [課題8-1](kadai08_1.html)
++ [課題8-2](kadai08_2.html)
++ [課題9-1](kadai09_1.html)
++ [課題9-2](kadai09_2.html)
++ [課題10](kadai10_1.html)
++ [課題11-1](kadai11_1.html)
++ [課題11-2](kadai11_2.html)
+
+[common.html](common.html)
+
 
 # SourceCode
 [Repository](https://github.com/gmori1020/kadai/)
+
+# Licence
+The Unlicense

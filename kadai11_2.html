@@ -1,0 +1,203 @@
+<!-- template.html Not Found -->
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/kadai11_2.css">
+    <title>Hello</title>
+
+    <!-- form内のpが見ずらいので -->
+    <style> 
+        form p{
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><img src="./images/ECCPizza_logo_250_90.png" alt="logo" width="125"></h1>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="./kadai09_2.html">メニュー</a></li>
+                <li><a href="./kadai05_2.html">店舗情報</a></li>
+                <li><a href="./kadai03.html">ECCPIZZAについて</a></li>
+                <li>最新ニュース</li>
+                <li>カート</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div>
+            <form action="https://click.ecc.ac.jp/ecc/y_arikawa/web1/kadai11_2_result.php" method="post">
+                <h2>アンケート</h2>
+                <div> <!-- know -->
+                    <p>どこで知ったか</p>
+                    <label for="know1">
+                        <input type="radio" id="know1" name="know" value="1"> ホームページ
+                    </label>
+                    <label for="know2">
+                        <input type="radio" id="know2" name="know" value="2"> SNS
+                    </label>
+                    <label for="know3">
+                        <input type="radio" id="know3" name="know" value="3"> 雑誌
+                    </label>
+                    <label for="know4">
+                        <input type="radio" id="know4" name="know" value="4"> 新聞
+                    </label>
+                    <label for="knowOther">
+                        <input type="radio" id="knowOther" name="knowOther" value="5"> その他
+                        <input type="text" id="knowOther" name="knowOther" >
+                    </label>
+                </div> <!-- know -->
+
+                <div>
+                    <label for="useShop"> 利用店舗
+                        <select name="useShop" id="useShop">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </label>
+                </div><!-- useShop -->
+
+                <div>
+                    <p>利用目的</p>
+                    <label for="purpose1"> 
+                        <input type="checkbox" id="purpose[]" name="purpose[]" value="1"> 普段の食事
+                    </label>
+                    <label for="purpose2">
+                        <input type="checkbox" id="purpose[]" name="purpose[]" value="2"> 特別な日の食事
+                    </label>
+                    <label for="purpose3">
+                        <input type="checkbox" id="purpose[]" name="purpose[]" value="3"> 友達や家族との集まり
+                    </label>
+                    <label for="purposeOther">
+                        <input type="checkbox" id="purposeOther" name="purposeOther" value="4"> その他
+                        <input type="text" id="knowOther" name="knowOther">
+                    </label>
+                </div><!-- purpose -->
+
+                <div>
+                    <p>メニューの評価</p>
+                    <label for="menu1">
+                        <input type="radio" id="menu1" name="menu" value="1"> とても満足
+                    </label>
+                    <label for="menu2">
+                        <input type="radio" id="menu2" name="menu" value="2"> 満足
+                    </label>
+                    <label for="menu3">
+                        <input type="radio" id="menu3" name="menu" value="3"> どちらでもない
+                    </label>
+                    <label for="menu4">
+                        <input type="radio" id="menu4" name="menu" value="4"> 不満
+                    </label>
+                    <label for="menu5">
+                        <input type="radio" id="menu5" name="menu" value="5"> とても不満
+                    </label>
+                </div><!-- menu -->
+
+                <div>
+                    <p>サービス評価</p>
+                    <label for="service1">
+                        <input type="radio" id="service1" name="service" value="1"> とても満足
+                    </label>
+                    <label for="service2">
+                        <input type="radio" id="service2" name="service" value="2"> 満足
+                    </label>
+                    <label for="service3">
+                        <input type="radio" id="service3" name="service" value="3"> どちらでもない
+                    </label>
+                    <label for="service4">
+                        <input type="radio" id="service4" name="service" value="4"> 不満
+                    </label>
+                    <label for="service5">
+                        <input type="radio" id="service5" name="service" value="5"> とても不満
+                    </label><!-- service -->
+                </div>
+
+                <div>
+                    <p>清潔感評価</p>
+                    <label for="clean1">
+                        <input type="radio" id="clean1" name="clean" value="1"> とても満足
+                    </label>
+                    <label for="clean2">
+                        <input type="radio" id="clean2" name="clean" value="2"> 満足
+                    </label>
+                    <label for="clean3">
+                        <input type="radio" id="clean3" name="clean" value="3"> どちらでもない
+                    </label>
+                    <label for="clean4">
+                        <input type="radio" id="clean4" name="clean" value="4"> 不満
+                    </label>
+                    <label for="clean5">
+                        <input type="radio" id="clean5" name="clean" value="5"> とても不満
+                    </label><!-- clean -->
+                </div>
+
+                <div>
+                    <p>価格評価</p>
+                    <label for="price1">
+                        <input type="radio" id="price1" name="price" value="1"> 安いと思う
+                    </label>
+                    <label for="price2">
+                        <input type="radio" id="price2" name="price" value="2"> 適切だと思う
+                    </label>
+                    <label for="price3">
+                        <input type="radio" id="price3" name="price" value="3"> 高いと思う
+                    </label>
+                </div><!-- price -->
+
+                <div>
+                    <p>再利用するか</p>
+                    <label for="reuse1">
+                        <input type="radio" id="reuse1" name="reuse" value="1"> はい
+                    </label>
+                    <label for="reuse2">
+                        <input type="radio" id="reuse2" name="reuse" value="2"> いいえ
+                    </label>
+                </div><!-- reuse -->
+
+                <div>
+                    <p>再利用するか</p>
+                    <label for="recommend1">
+                        <input type="radio" id="recommend1" name="recommend" value="1"> はい
+                    </label>
+                    <label for="recommend2">
+                        <input type="radio" id="recommend2" name="recommend" value="2"> いいえ
+                    </label>
+                </div><!-- recommend -->
+
+                <div>
+                    <p>意見要望</p>
+                    <label for="impressions">
+                    <textarea id="impressions" name="impressions"></textarea>
+                    </label>
+                </div>
+
+                <button type="submit" id="submit">送信</button>
+            </form>
+        </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p><img src="./images/kadai4-logo.png" width="200"></p>
+        <p><a href="#"><img src="./images/twitter.png" width="32"></a> <a href="#"><img src="./images/facebook.png"
+                    width="32"></a> <a href="#"><img src="./images/instagram.png" width="32"></a></p>
+        <p><small>Copyright &copy; 2023 ECC Pizza. All Rights Reserved.</small></p>
+    </footer>
+
+</body>
+
+</html>

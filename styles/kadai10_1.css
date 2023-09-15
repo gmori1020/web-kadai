@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+img{
+    border: none;
+    vertical-align: top;
+}
+
+a:link {
+    color: #9999ff;
+}
+a:visited{
+    color: #ff7f7f;
+}
+
+a:hover{
+    color:#ff0000;
+}
+
+h3{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+header{
+    background-color: #f0ffba;
+    width: 100%;
+    padding: 0 5% 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+h1{
+    padding: 5px 0 5px 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+nav ul li{
+    padding: 0. 10px 0 10px;
+}
+
+main h2{
+    width: 90%;
+    margin: 10px auto 10px auto;
+}
+
+.about {
+    width: 100%;
+    height: 450px;
+    background-image: url("../images/about.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about-info{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: right;
+    width: 50%;
+}
+
+.about-info a{
+    font-weight: lighter;
+    color:white;
+}
+
+.popular-items{
+    margin: 10px 0 10px 0 ;
+}
+.popular-items h3{
+    border-bottom: 1px solid #ff0000;
+}
+
+.item-wrap{
+    margin: 10px 0 10px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.popular-item{
+    width: 45%;
+}
+.popular-item img{
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 5px 0 5px 0;
+}
+
+.item-info{
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.price{
+    font-weight: bold;
+}
+
+.items-link{
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+
+.news {
+    margin: 10px 0 10px 0;
+}
+.news h3 {
+    border-bottom: 1px solid #ff0000;
+}
+.news table{
+    width: 100%;
+}
+.news th{
+    padding: 10px 0 10px 0;
+}
+.news td{
+    border-bottom: 1px solid #ccc;
+}
+.news tfoot{
+    text-align: center;
+}
+
+.scroll-top{
+        position: absolute;
+        margin: 0 10px 10px 0;
+        z-index: 100;
+}
+
+footer{
+    width: 100%;
+    background-color: #f0ffba;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.sns-icon{
+    text-align: center;
+}
+.sns-icon img{
+    margin: 20px;
+}

@@ -1,0 +1,104 @@
+<!-- template.html Not Found -->
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/kadai11_1.css">
+    <title>Hello</title>
+</head>
+
+<body>
+
+    <header>
+        <h1><img src="./images/ECCPizza_logo_250_90.png" alt="logo" width="125"></h1>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="./kadai09_2.html">メニュー</a></li>
+                <li><a href="./kadai05_2.html">店舗情報</a></li>
+                <li><a href="./kadai03.html">ECCPIZZAについて</a></li>
+                <li>最新ニュース</li>
+                <li>カート</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div>
+            <form action="https://click.ecc.ac.jp/ecc/y_arikawa/web1/kadai11_1_result.php" method="post">
+                <h2>お客様情報入力</h2>
+                <div>
+                    <label for="uname"> お名前
+                        <input type="text" id="uname" name="uname" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="ruby"> フリガナ
+                        <input type="text" id="ruby" name="ruby" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="mail"> メールアドレス
+                        <input type="email" id="mail" name="mail" required> 
+                    </label>
+                </div>
+
+                <div>
+                    <label for="password"> パスワード
+                        <input type="password" id="password" name="password" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="confirmPassword"> パスワード(確認)
+                        <input type="Password" id="confirmPassword" name="confirmPassword" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="tel"> 電話番号
+                        <input type="tel" id="tel" name="tel" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="postal"> 郵便番号
+                        <input type="text" id="postal" name="postal" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="address"> 住所
+                        <input type="text" id="address" name="address" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="checkDM">
+                        <input type="checkbox" id="checkDM" name="checkDM"> お得なクーポンをメールで受け取る
+                    </label>
+                </div>
+
+                <button type="submit" id="submit">登録</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p><img src="./images/kadai4-logo.png" width="200"></p>
+        <p><a href="#"><img src="./images/twitter.png" width="32"></a> <a href="#"><img src="./images/facebook.png"
+                    width="32"></a> <a href="#"><img src="./images/instagram.png" width="32"></a></p>
+        <p><small>Copyright &copy; 2023 ECC Pizza. All Rights Reserved.</small></p>
+    </footer>
+
+</body>
+
+</html>
